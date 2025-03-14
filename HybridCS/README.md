@@ -1,6 +1,6 @@
 ### Dataset
 The XLCoST dataset can be downloaded [here](https://drive.google.com/file/d/1tZfsYQgWmc2gG340ru5VbrZ5aLIZ41_6/view).
-We only use the program-level data. The XLCoST_data folder should be placed under the current directory.
+We only use the program-level data. The XLCoST_data folder should be placed under the current directory. The Solidity and SQL dataset can be downloaded [here](https://github.com/fewshotcdcs/CDCS).
 
 ### Dependency
 You can install dependencies using the following command.
