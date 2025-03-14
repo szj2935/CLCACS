@@ -1,0 +1,15 @@
+python run_stage_one.py \
+    --output_dir saved_models/stage_one \
+    --model_name_or_path microsoft/unixcoder-base  \
+    --do_train \
+    --do_test \
+    --train_data_file ./XLCoST_data/retrieval \
+    --eval_data_file ./XLCoST_data/retrieval \
+    --test_data_file ./XLCoST_data/retrieval \
+    --num_train_epochs 10 \
+    --code_length 256 \
+    --nl_length 128 \
+    --train_batch_size 8 \
+    --eval_batch_size 8 \
+    --learning_rate 5e-5 \
+    --seed 123456
